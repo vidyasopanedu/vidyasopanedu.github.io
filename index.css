@@ -102,14 +102,25 @@ nav .nav-contents ul li{
 }
 
 /* Footer  */
+.under-process {
+    background-color:#f6b7a5;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .under-process p{
-    color: #fff;
+    /* color: #fff; */
     font-weight: 600;
-    text-align: end;
-    font-size: 2.8rem;   
-    padding: 3rem;
-    background-color:#340623 ;
+    text-align: center;
+    font-size: 3rem;   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     /* width: 100%; */
+}
+.under-process img{
+    height: 12%;
+    width: 12%;
+    padding: 0px;
 }
 
 
